@@ -1,4 +1,3 @@
-SELECT * 
 /*
 Covid 19 Data Exploration 
 
@@ -6,6 +5,7 @@ Skills used: Import tables with the correct data type, Aggregate Functions, Join
 */
 
 -- Check with Deaths table
+SELECT * 
 FROM CovidDeaths
 WHERE continent IS NOT NULL 
 ORDER BY 3,4
